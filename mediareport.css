@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald|Roboto:400);
+@import url(http://weloveiconfonts.com/api/?family=brandico);
+
+body {
+  padding:0;
+  margin:0;
+  background:#eee;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.content {
+  padding:20px;
+}
+.heading {}
+.deck-shadow {
+  box-shadow: 0 1px #DDD,
+              0 2px #EEE,
+              0 3px #DDD,
+              0 4px #EEE,
+              0 5px #DDD,
+              0 6px #EEE,
+              0 10px 10px -3px #AAA;
+}
+
+.dropzones {
+  list-style-type:none;
+  padding:0;
+  margin:0;
+}
+.dropzone {
+  margin-bottom:20px;
+  background:#fff;
+  padding:20px;
+  font-size:20px;
+  color:#140407;
+  text-shadow:0 1px 1px #fff;
+  font-weight:400;
+  text-align:center;
+}
+.dropzone:hover {
+  cursor:pointer;
+  background:#fff;
+}
+.drawer {
+  list-style-type:none;
+  padding:0;
+  margin:20px 0 0 0;
+  display:none;
+}
+.drawer li {
+  text-align:left;
+  margin:0;
+  padding:20px;
+  color:#aaa;
+  font-size:16px;
+  text-shadow:0 1px 1px #fff;
+  font-weight:400;
+}
+.drawer li span {
+  float:right;
+}
+.drawer li:hover {
+  background:#eee;
+}
+.drop-hover {
+  background:#fff;
+}
